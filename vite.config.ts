@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import tailwind from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/hannah-condada-portfolio/",
+  base: "/Portfolio/",
   plugins: [react(), tsconfigPaths(), tailwind()],
   build: {
     outDir: "docs",
